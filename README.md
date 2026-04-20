@@ -4,9 +4,7 @@
 
 ## Среда выполнения
 
-Виртуальная машина на Debian 12 (bookworm), поднятая через Vagrant на VirtualBox — 6 ГБ RAM, 2 CPU. Из Windows-хоста проброшены порты: 5601 (Kibana), 9200 (Elasticsearch), 8080→80 (Nginx).
-
-Весь стек ELK 8.19.14 установлен пакетами из APT-репозитория. Так как официальный репозиторий Elastic недоступен из РФ (403 Forbidden на `.deb`-артефакты), использовалось зеркало `mirror.yandex.ru/mirrors/elastic/8/`. Для учебных целей отключены TLS и x-pack security (`xpack.security.enabled: false`).
+Виртуальная машина на Debian 12 (bookworm) — 6 ГБ RAM, 2 CPU. Из Windows-хоста проброшены порты: 5601 (Kibana), 9200 (Elasticsearch), 8080→80 (Nginx).
 
 ---
 
