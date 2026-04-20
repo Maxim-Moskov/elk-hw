@@ -55,7 +55,7 @@ curl -X GET 'localhost:9200/_cluster/health?pretty'
 
 ![Скриншот Задания 1](img/img_1.png)
 
-В выводе виден нестандартный `cluster_name: maxim-elk-cluster` — задание выполнено.
+В выводе виден нестандартный `cluster_name: maxim-elk-cluster`
 
 ---
 
